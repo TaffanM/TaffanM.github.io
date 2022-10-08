@@ -128,6 +128,7 @@ nav {
 
 .card-container .card:hover .box {
     transform: translateY(-50px);
+    background: #ff0051a4;
 }
 
 .card-container .card .box .content h2 {
@@ -135,13 +136,14 @@ nav {
     top: -10px;
     right: 30px;
     font-size: 8em;
-    color: rgba(0,0,0,0.02);
+    color: rgba(0, 0, 0, 0.06);
     transition: 0.5s;
     pointer-events: none;
 }
 
 .card-container .card:hover .box .content h2 {
-    color: rgbargba(0,0,0,0.05);
+    color: rgba(0,0,0,0.05);
+    
 }
 
 .card-container .card .box .content h3 {
@@ -152,6 +154,11 @@ nav {
     padding: 10px;
 }
 
+.card-container .card:hover .box .content h3 {
+    color: #fff;
+}
+
+
 .card-container .card .box .content p {
     font-size: 1em;
     font-weight: 300;
@@ -159,6 +166,10 @@ nav {
     z-index: 1;
     transition: 0.5s;
     padding: 10px;
+}
+
+.card-container .card:hover .box .content p {
+    color: #fff;
 }
 
 /* contact */
