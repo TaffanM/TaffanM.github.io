@@ -29,7 +29,7 @@ body {
     color: red;
 }
 
-/* content */
+/*-------------- content------------ */
 .container {
     height: auto;
     width: 600px;
@@ -49,7 +49,7 @@ ul li {
     padding: 3px;
 }
 
-/* nav */
+/* -----------nav--------------- */
 nav {
     display: flex;
     padding: 2% 6%;
@@ -79,10 +79,11 @@ nav {
     content: '';
     height: 3px;
     width: 0;
-    background: #fff;
+    background: #ff6666;
     position: absolute;
     left: 0;
     bottom: -10px;
+    transition: 0.5s;
 }
 
 .nav-menu ul li:hover::after {
@@ -164,16 +165,17 @@ nav {
 .contact-left {
     flex-basis: 35%;
     padding: 10px 10%;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .contact-left p {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .contact-left h1 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
     margin: auto;
     font-size: 40px;
 }
@@ -186,7 +188,7 @@ nav {
 
 .contact-title {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 /*Social*/
 .wrapper {
@@ -238,6 +240,21 @@ nav {
 
 .wrapper .button:hover{
     transform: translateY(-10px);
+}
+
+/*footer*/
+.footer {
+    left: 0;
+    bottom: 0;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: #ff004f;
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
 }
 
 
