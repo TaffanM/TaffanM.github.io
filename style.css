@@ -162,7 +162,9 @@ nav {
 
 /* contact */
 .contact-left {
-    flex-basis: 35%
+    flex-basis: 35%;
+    padding: 10px 10%;
+    margin-top: 30px;
 }
 
 .contact-left p {
@@ -172,12 +174,72 @@ nav {
 .contact-left h1 {
     text-align: center;
     margin-top: 30px;
+    margin: auto;
     font-size: 40px;
 }
 
 .contact-left p i{
     color: #ff004f;
+    margin-right: 15px;
+    font-size: 20px;
 }
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*Social*/
+.wrapper {
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    text-decoration: none;
+    justify-content: center;
+}
+.button {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    margin: 0px 5px 0px 5px;
+    overflow: hidden;
+    background: #f1eee8;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+    float: none;
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper .button .icon {
+    display: inline-block;
+    height: 300px;
+    width: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
+
+.wrapper .button:hover{
+    transform: translateY(-10px);
+}
+
 
 
 
